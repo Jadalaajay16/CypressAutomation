@@ -1,0 +1,137 @@
+[
+  {
+    "description": "    application Regression",
+    "keyword": "Feature",
+    "name": "End to end Ecommerce validation",
+    "line": 1,
+    "id": "end-to-end-ecommerce-validation",
+    "tags": [],
+    "uri": "ecommerce.feature",
+    "elements": [
+      {
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Ecommerce products delivery",
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 4
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I open ECommerce Page",
+            "result": {
+              "status": "passed",
+              "duration": 1712000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add items to Cart",
+            "result": {
+              "status": "failed",
+              "duration": 63000000,
+              "error_message": "TypeError: homePage.getShopTab is not a function\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:69:12)\n    at Context.resolveAndRunStepDefinition (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:12489:9)\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:11818:35)\nFrom previous event:\n    at Context.thenFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:136267:23)\n    at Context.then (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:136706:21)\n    at Context.<anonymous> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151669:21)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151077:15\nFrom previous event:\n    at runCommand (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151056:8)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151202:14)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151230:16\nFrom previous event:\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151202:34)\nFrom previous event:\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151243:37\nFrom previous event:\n    at run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151236:21)\n    at $Cy.cy.<computed> [as then] (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151709:11)\n    at Context.runnable.fn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151933:21)\n    at callFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107884:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107871:7)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157913:28\nFrom previous event:\n    at Object.onRunnableRun (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157901:17)\n    at $Cypress.action (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:148017:28)\n    at Test.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:156043:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108543:10)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108669:12\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108452:14)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108462:7\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108364:14)\n    at Hook.<anonymous> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108425:7)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157829:22)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157856:11\nFrom previous event:\n    at onNext (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157853:57)\n    at done (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107824:5)\n    at callFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107907:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107871:7)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157913:28\nFrom previous event:\n    at Object.onRunnableRun (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157901:17)\n    at $Cypress.action (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:148017:28)\n    at Hook.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:156043:13)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108386:10)\n    at Hook.<anonymous> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108425:7)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157829:22)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157856:11\nFrom previous event:\n    at onNext (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157853:57)\n    at done (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107824:5)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107889:11\nFrom previous event:\n    at callFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107887:14)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107871:7)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157913:28\nFrom previous event:\n    at Object.onRunnableRun (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157901:17)\n    at $Cypress.action (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:148017:28)\n    at Hook.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:156043:13)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108386:10)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108430:5\n    at timeslice (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:102356:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Validate the total prices",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "select the country submit and verify Thankyou",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-ecommerce-validation;filling-the-form-to-shop",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Filling the form to shop",
+        "tags": [
+          {
+            "name": "@Smoke",
+            "line": 11
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I open ECommerce Page",
+            "result": {
+              "status": "passed",
+              "duration": 1068000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "name",
+                      "gender"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "bobz",
+                      "Male"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill the form details",
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: homePage.getGender is not a function\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:116:12)\n    at Context.resolveAndRunStepDefinition (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:12489:9)\n    at Context.eval (https://rahulshettyacademy.com/__cypress/tests?p=cypress\\integration\\examples\\BDD\\ecommerce.feature:11818:35)\nFrom previous event:\n    at Context.thenFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:136267:23)\n    at Context.then (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:136706:21)\n    at Context.<anonymous> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151669:21)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151077:15\nFrom previous event:\n    at runCommand (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151056:8)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151202:14)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151230:16\nFrom previous event:\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151202:34)\nFrom previous event:\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151243:37\nFrom previous event:\n    at run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151236:21)\n    at $Cy.cy.<computed> [as then] (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151709:11)\n    at Context.runnable.fn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:151933:21)\n    at callFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107884:21)\n    at Test.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107871:7)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157913:28\nFrom previous event:\n    at Object.onRunnableRun (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157901:17)\n    at $Cypress.action (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:148017:28)\n    at Test.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:156043:13)\n    at Runner.../driver/node_modules/mocha/lib/runner.js.Runner.runTest (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108543:10)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108669:12\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108452:14)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108462:7\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108364:14)\n    at Hook.<anonymous> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108425:7)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157829:22)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157856:11\nFrom previous event:\n    at onNext (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157853:57)\n    at done (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107824:5)\n    at callFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107907:7)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107871:7)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157913:28\nFrom previous event:\n    at Object.onRunnableRun (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157901:17)\n    at $Cypress.action (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:148017:28)\n    at Hook.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:156043:13)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108386:10)\n    at Hook.<anonymous> (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108425:7)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157829:22)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157856:11\nFrom previous event:\n    at onNext (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157853:57)\n    at done (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107824:5)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107889:11\nFrom previous event:\n    at callFn (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107887:14)\n    at Hook.../driver/node_modules/mocha/lib/runnable.js.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:107871:7)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157913:28\nFrom previous event:\n    at Object.onRunnableRun (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:157901:17)\n    at $Cypress.action (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:148017:28)\n    at Hook.Runnable.run (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:156043:13)\n    at next (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108386:10)\n    at https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:108430:5\n    at timeslice (https://rahulshettyacademy.com/__cypress/runner/cypress_runner.js:102356:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "validate the forms behaviour",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "select the Shop Page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

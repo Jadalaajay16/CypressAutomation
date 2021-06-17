@@ -1,0 +1,20 @@
+{
+  "modifyObstructiveCode": false,
+  "experimentalSourceRewriting": true,
+  "chromeWebSecurity": true,
+  "pageLoadTimeout": 10000,
+  "defaultCommandTimeout": 10000,
+  "reporter": "mochawesome",
+  
+  "env": {
+    "url": "https://rahulshettyacademy.com/angularpractice/"
+  },
+  "retries": {
+    
+    "runMode": 2,
+    
+    "openMode": 0
+  },
+
+  "projectId": "2h37f"
+}
